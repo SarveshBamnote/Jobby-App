@@ -1,0 +1,44 @@
+.filters-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-heading {
+  margin: 0;
+  font-size: 18px;
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.filters-list {
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.filters-list-item {
+  display: flex;
+  align-items: center;
+}
+
+.filters-input {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.filters-label {
+  font-size: 16px;
+  color: #f1f5f9;
+  margin-left: 16px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
